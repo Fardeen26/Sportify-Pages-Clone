@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Libre+Baskerville&family=Noto+Sans&family=Roboto+Mono:wght@200&family=Roboto:wght@500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Libre+Baskerville&family=Noto+Sans&family=Playfair+Display:wght@500&family=Roboto+Mono:wght@200&family=Roboto:wght@500&family=Rubik&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.progress {
+    height: 1px;
+    background-color: #d42a2a;
+    animation: loadingbar .55s ease-out 1;
+}
+
+@keyframes loadingbar {
+    0% {
+        width: 0px;
+    }
+
+    65% {
+        width: 35vw;
+    }
+
+    80% {
+        width: 75vw;
+    }
+
+    100% {
+
+        width: 100%;
+    }
+}
+
+header {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+}
+
+.logo {
+    padding: 18px 0px 16px 0;
+}
+
+.logo img {
+    width: 9vw;
+}
+
+.list-container {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.items ul {
+    display: flex;
+    margin-top: 7px;
+}
+
+.items ul li {
+    list-style: none;
+    padding: 0 22px;
+}
+
+.items ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.items ul li a:hover {
+    color: #1ed760;
+}
+
+.container-2 {
+
+    /* background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231)); */
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    height: 80vh;
+    overflow: hidden;
+}
+
+.box-left {
+    margin-top: 23px;
+    padding-left: 120px;
+    overflow: hidden;
+}
+
+.box-left img {
+    height: 70vh;
+}
+
+.duplicate {
+    height: 70vh;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 40px;
+    width: 18vw;
+    margin-top: 90px;
+    overflow: hidden;
+    position: relative;
+}
+
+.camera {
+    position: absolute;
+    background-color: black;
+    height: 1vh;
+    width: 4vw;
+    left: 109px;
+    top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.photo img {
+    width: 18vw;
+    height: 28vw;
+    padding: 0 10px;
+    margin-top: 44px;
+    overflow: hidden;
+}
+
+.box-right {
+    padding-right: 52px;
+    margin-bottom: 55px;
+}
+
+.pera p {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Anton', sans-serif;
+}
+
+.btn button {
+    width: 12vw;
+    margin-top: 46px;
+    padding: 13px 0px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 23px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn button:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.container-3 {
+    margin-top: 55px;
+    padding: 0 200px;
+    background-color: #fff;
+}
+
+.center {
+    padding: 0 23vw;
+    font-size: 48px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    margin-left: 45px;
+}
+
+
+.quality-container {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    height: 21vh;
+    width: 10vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 150px;
+    transition: 0.5s;
+}
+
+.background i {
+    color: #fff;
+}
+
+.box-1 h3 {
+    margin-bottom: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+}
+
+.box-1 p {
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.box-heading {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-1:hover .background {
+    transform: translateY(-10px);
+    /* transition-duration: 0.7s; */
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    cursor: pointer;
+}
+
+.container-4 {
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    margin-top: 100px;
+    height: 60vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+    flex-direction: column;
+}
+
+.container-5 {
+
+    padding: 0 200px;
+    margin: 80px 0;
+}
+
+.questions {
+    margin-top: 50px;
+}
+
+.big-bold {
+    font-size: 17px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    padding: 30px 10px;
+}
+
+.big-bold:hover {
+    background-color: rgb(228, 225, 225);
+    cursor: pointer;
+}
+
+.under {
+    margin: 30px 0;
+    padding: 0 30px;
+}
+
+hr {
+    color: rgb(228, 225, 225);
+    opacity: 0.33;
+}
+
+.under {
+    display: none;
+}
+
+.q-1:hover .under {
+    display: block;
+}
+
+.questions span {
+    float: right;
+}
+
+span img {
+    width: 35px;
+    margin: -8px 0 0 0;
+}
+
+.big-bold:hover img {
+    transform: rotate(0.5turn);
+    transition-duration: 0.7s;
+}
+
+.q-2:hover .under {
+    display: block;
+}
+
+.q-3:hover .under {
+    display: block;
+}
+
+.q-4:hover .under {
+    display: block;
+}
+
+.container-6 {
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+
+    margin-top: 60px;
+    height: 65vh;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-6 p {
+    font-size: 84px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+}
+
+.container-6 button {
+    margin-top: 20px;
+}
+
+footer {
+    height: 75vh;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.container-7 {
+    padding: 0 200px;
+    margin-top: 80px;
+    color: #fff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    list-style: none
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.m-left a:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.hover-g:hover {
+    cursor: pointer;
+}
+
+ul li p {
+    margin-top: 25px;
+
+}
+
+.f-logo {
+    width: 9vw;
+}
+
+.m-left {
+    padding-left: 80px;
+}
+
+.c-gray {
+    text-transform: uppercase;
+    color: #919496;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.container-7 p:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.container-7 .c-gray:hover {
+    color: #919496;
+    cursor: pointer;
+}
+
+.f-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    position: relative;
+    bottom: 230px;
+}
+
+.logo-p {
+    margin-left: 20px;
+}
+
+.f-logos div i {
+    background-color: #222326;
+    padding: 18px;
+    border-radius: 40px;
+    color: #fff;
+}
+
+.f-logos div i:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+nav ul li a {
+    position: relative;
+}
+
+nav ul li a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 3px;
+    width: 0;
+    color: red;
+    background: #1ed760;
+    margin: 23.5px 0px 0px -1px;
+    border-radius: 10px:
+    transition: 0.5s;
+}
+
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.footer-line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    color: #919496;
+    font-size: 12px;
+}
+
+.footer-box-1 {
+    display: flex;
+}
+
+.footer-box-1 p {
+    padding: 0 10px;
+}
+
+.footer-box-2 {
+    margin-top: -40px;
+}
+
+.footer-box-2 .p2 {
+    margin-top: 20px;
+}

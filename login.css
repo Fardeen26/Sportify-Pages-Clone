@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Libre+Baskerville&family=Noto+Sans&family=Roboto+Mono:wght@200&family=Roboto:wght@500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Libre+Baskerville&family=Noto+Sans&family=Playfair+Display:wght@500&family=Roboto+Mono:wght@200&family=Roboto:wght@500&family=Rubik&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 30px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 13vw;
+    border-radius: 45px;
+    border: 2px solid white;
+}
+
+
+.btn {
+    width: 30vw;
+    height: 6.5vh;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-1 {
+    margin-top: 10px;
+    background-color: rgb(24, 119, 242);
+    color: #fff;
+}
+
+.btn-2 {
+    margin-top: 10px;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.btn-3 {
+    margin-top: 10px;
+    background-color: #fff;
+    color: #919496;
+    border: 1px solid #000;
+}
+
+.btn-3 i {
+    color: blue;
+}
+
+.btn-4 {
+    margin-top: 10px;
+    background-color: #fff;
+    color: #919496;
+    border: 1px solid #000;
+}
+
+.btn i {
+    margin-right: 15px;
+}
+
+.btn:hover {
+    transform: scale(1.04);
+}
+
+.line {
+    height: 1px;
+    background-color: #919496;
+    width: 10vw;
+    margin: 30px 0;
+}
+
+.input-box {
+    width: 30vw;
+    height: 6.5vh;
+    padding: 0 0 0 15px;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+input {
+    font-weight: 590;
+}
+
+.input-1 {
+    margin-bottom: 15px;
+}
+
+.font-bold {
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* NEW CSS */
+
+hr {
+    width: 100vw;
+    background-color: #919496;
+    opacity: 0.2;
+    margin-top: 3vh;
+}
+
+.margin-top-p {
+    margin-top: 35px;
+}
+
+.underline-l {
+    text-decoration: underline;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.rem-login {
+    margin-top: 20px;
+}
+
+#remchek {
+    margin-right: 10px;
+}
+
+.btn-5 {
+    float: right;
+    width: 8vw;
+    background-color: #1ed760;
+    height: 6vh;
+    border-radius: 30px;
+    border: 2px solid #1ed760;
+    margin-top: -20px;
+}
+
+.btn-5 a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn-5:hover {
+    transform: scale(1.04);
+    background-color: #11f360;
+    border: 2px solid #11f360;
+}
+
+
+.line-b {
+    width: 32vw;
+}
+
+.last-mar-t {
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.btn-6 {
+    background-color: #fff;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+
+.btn-6 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.btn:hover {
+    border: 2px solid black;
+}
+
+input:hover {
+    border: 2px solid black;
+}
